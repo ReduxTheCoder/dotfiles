@@ -1,0 +1,25 @@
+[window]
+padding.x = 10
+padding.y = 10
+decorations = "None"
+
+blur = true
+opacity = 0.8
+
+startup_mode = "Maximized"
+
+[font]
+size = 10
+
+[cursor]
+thickness = 0.1
+style.shape = "Beam"
+style.blinking = "Always"
+unfocused_hollow = false
+
+[mouse]
+hide_when_typing = true
+
+[colors]
+primary.background = "#1e1e2e"
+primary.foreground = "#cdd6f4"
