@@ -6,7 +6,7 @@ eval "$(starship init zsh)"
 # ------------------------
 # Oh My Zsh
 # ------------------------
-export PATH=$HOME/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/bin
+export PATH=$HOME/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:$HOME/.local/bin
 export ZSH=$HOME/.oh-my-zsh
 
 plugins=(
@@ -41,4 +41,10 @@ setopt CORRECT
 # zoxide
 # ------------------------
 eval "$(zoxide init --cmd cd zsh)"
+
+. ~/stuff/bin/boot.sh
+
+# -----------------------
+# Other
+# -----------------------
 
