@@ -47,4 +47,5 @@ eval "$(zoxide init --cmd cd zsh)"
 # -----------------------
 # Other
 # -----------------------
-
+EDITOR=nvim
+export EDITOR=nvim
