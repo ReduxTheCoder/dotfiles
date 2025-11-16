@@ -3,6 +3,7 @@ add_newline = true # Whenever to add a newline between commands
 format = '''
 $directory$git_branch$git_status$rust$python
 $character'''
+command_timeout = 1000
 
 [directory]
 style = 'white'
