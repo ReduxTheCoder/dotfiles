@@ -7,12 +7,12 @@ command_timeout = 1000
 
 [directory]
 style = 'white'
-truncation_length = 8
+truncation_length = 3
 truncation_symbol = '.../'
 
 [git_branch]
 symbol = ' '
 
 [character]
-success_symbol = '[• >](bold white)'
-error_symbol = '[• >](bold red)'
+success_symbol = '[»](bold white)'
+error_symbol = '[»](bold red)'
