@@ -12,17 +12,18 @@ export ZSH=$HOME/.oh-my-zsh
 plugins=(
     git
     fzf-tab
-    zsh-autosuggestions
-    zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
+# autosuggestions
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# syntax highlighting (MUST be last)
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # ------------------------
 # Tab Completion
 # ------------------------
-autoload -Uz compinit
-compinit
 
 [ -f /usr/share/fzf/key-bindings.zsh ] && source /usr/share/fzf/key-bindings.zsh
 
@@ -42,7 +43,7 @@ setopt CORRECT
 # ------------------------
 eval "$(zoxide init --cmd cd zsh)"
 
-. ~/stuff/bin/boot.sh
+. ~/Stuff/bin/boot.sh
 
 # -----------------------
 # Other
