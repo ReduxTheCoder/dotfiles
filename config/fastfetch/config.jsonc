@@ -23,81 +23,84 @@
     "height": 18
   },
   "display": {
-    // Make the separator explicitly plain white
     "separator": "\u001b[37m ▸ \u001b[0m"
   },
   "modules": [
     {
+      "type": "custom",
+      "format": "\u001b[37m System Info\u001b[0m"
+    },
+    {
       "type": "os",
-      "key": "◤",
+      "key": "│",
       "keycolor": "38;2;0;0;0",
       "format": "{name}"
     },
     {
       "type": "kernel",
-      "key": "┃",
+      "key": "│",
       "keycolor": "white",
       "format": "{sysname}"
     },
     {
       "type": "de",
-      "key": "┃",
+      "key": "│",
       "keycolor": "white",
       "format": "{pretty-name}"
     },
     {
       "type": "wm",
-      "key": "┃",
+      "key": "│",
       "keycolor": "white",
       "format": "{pretty-name}"
     },
     {
       "type": "packages",
-      "key": "┃",
+      "key": "│",
       "keycolor": "white"
     },
     {
       "type": "custom",
-      "format": "\u001b[37m\u001b[0m"
+      "format": "\u001b[37m System Stats\u001b[0m"
     },
     {
       "type": "memory",
-      "key": "┃",
+      "key": "│",
       "keycolor": "white"
     },
     {
       "type": "cpu",
-      "key": "┃",
+      "key": "│",
       "keycolor": "white",
       "format": "{name}"
     },
     {
       "type": "gpu",
-      "key": "┃",
+      "key": "│",
       "keycolor": "white"
     },
     {
       "type": "swap",
-      "key": "┃",
+      "key": "│",
       "keycolor": "white"
     },
     {
       "type": "disk",
-      "key": "┃",
+      "key": "│",
       "keycolor": "white"
     },
     {
       "type": "custom",
-      "format": "\u001b[37m\u001b[0m"
+      "format": "\u001b[37m Other\u001b[0m"
     },
     {
       "type": "uptime",
-      "key": "┃",
+      "key": "│",
       "keycolor": "white"
     },
     {
       "type": "terminal",
-      "key": "◣",
+      "key": "╰",
       "keycolor": "white",
       "format": "{pretty-name}"
     },
