@@ -6,10 +6,10 @@ gui:
     'feat\d+': '#FFFFFF'
   theme:
     activeBorderColor:
-      - '#FF0000'
+      - '#cdd6f4'
       - bold
     inactiveBorderColor:
-      - '#800000'
+      - '#585b70'
     optionsTextColor:
       - '#FF7A7A'
       - bold
@@ -22,6 +22,6 @@ gui:
     unstagedChangesColor:
       - '#FF8400'
     defaultFgColor:
-      - '#FF0000'
+      - '#cdd6f4'
     searchingActiveBorderColor:
       - '#f9e2af'
