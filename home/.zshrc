@@ -1,5 +1,10 @@
 export XDG_CONFIG_HOME="$HOME/.config"
 
+# Tmux
+if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+  exec tmux
+fi
+
 # ------------------------
 # Starship prompt
 # ------------------------
